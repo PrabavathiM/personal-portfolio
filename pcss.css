@@ -39,6 +39,31 @@ section {
 }
 #home p{
   position: absolute;
-  top: 50%;
+  top: 30%;
   font-size: 100px;
+  opacity: 0;
+  animation: text 3s ease-in-out;
 }
+@keyframes text{
+  50%{
+    opacity: 10;
+
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+#home p:nth-child(1){
+  animation-delay: 0s;
+}
+#home p:nth-child(2){
+  animation-delay: 3s;
+}
+
+@media screen and (max-width:576px){
+  #home p{
+    font-size: 80px;
+  }
+}
+
