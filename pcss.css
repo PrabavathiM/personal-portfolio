@@ -24,49 +24,27 @@
 }
 
 /* styling home page  */
-section {
-  width: 100%;
-  min-height: 100vh;
-}
-#home {
-  width: 100%;
-  height: 100%;
-  background-color: aquamarine;
-  display: flex;
+
+  
+/* styling about page 181, 179, 179*/
+#about {
+  background-color: rgb(54, 51, 51);
+  
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
-#home p{
+img {
+  mix-blend-mode: darken;
+  border-radius: 50%;
   position: absolute;
-  top: 50%;
-  font-size: 100px;
-  opacity: 0;
-  animation: text 3s ease-in-out;
+  left: 6%;
+  box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.6);
+  margin-bottom: 90px;
+  bottom: 80px;
 }
-@keyframes text{
-  50%{
-    opacity: 10;
-
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-#home p:nth-child(1){
-  animation-delay: 0s;
-}
-#home p:nth-child(2){
-  animation-delay: 3s;
-}
-
-@media screen and (max-width:576px){
-  #home p{
-    font-size: 80px;
-  }
-}
-
-/* styling about page*/
-#about{
-  background-color: palevioletred;
+.shadow-lg{
+  align-items: center;
+ 
+  top: 100%;
+  left: 50%;
 }
