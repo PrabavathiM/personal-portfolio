@@ -5,4 +5,4 @@ s-4 : add CDN link for css that add in head tag  and js that add in body tag fro
 s-5 : add navbar code from bootstrap "change navbar and bg -black", ms-auto
 s-6 : change the font family and style
 s-7 : style the nav give bluring effects.
-s-8 : create home page
+s-8 : create about page
