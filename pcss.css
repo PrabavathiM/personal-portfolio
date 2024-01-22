@@ -1,4 +1,74 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar style*/
+nav{
+    width:100%;
+    position: sticky !important;
+    left:0;
+    top: 0;
+    box-shadow: 0px 5px 8px black;
+    z-index: 10;
 
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link{
+    color: white !important;
 
+}
+.nav-link:hover{ 
+    border-bottom: 1px solid white;
 
+}
+
+/* style about page */
+section{
+    width:100%;
+    min-height: 100vh;   
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background: salmon;
+}
+/*style skills page */
+
+section{
+    width:100%;
+    min-height: 100vh;   
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+}
+
+/*style project page*/
+section{
+    width:100%;
+    min-height: 100vh;   
+}
+#project{
+    width: 100%;
+    height: 100vh;
+    background: yellowgreen;
+}
+
+/*style contact page*/
+section{
+    width:100%;
+    min-height: 100vh;   
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background: orchid;
+}
