@@ -39,6 +39,18 @@ section{
     height: 100vh;
     background: salmon;
 }
+#about .abtxt{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    margin-right: 15%;
+}
+#about .main{
+
+    
+  
+}
 /*style skills page */
 
 section{
